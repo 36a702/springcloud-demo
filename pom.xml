@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springcloud-demo-api</module>
+        <module>springcloud-demo-provider-dept-8001</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -73,7 +74,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>microservicecloud</finalName>
+        <finalName>springcloud-demo</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
